@@ -30,7 +30,7 @@ public class TestDashboard {
     
     @Then("User on dashboard page")
     public void user_on_dashboard_page() {
-    	Assert.assertEquals(dashboardPage.getTxtQuickLaunch(), "Quick Launc");
+    	Assert.assertEquals(dashboardPage.getTxtQuickLaunch(), "Quick Launch");
     	extentTest.log(LogStatus.PASS, "User on dashboard page");
     }
 }
